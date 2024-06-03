@@ -13,7 +13,7 @@ export function SubmitButton({text}: SubmitButtonProps) {
     <button
       type="submit"
       disabled={pending}
-      className="bg-[#00BBF9] text-white p-2 rounded-lg disabled:bg-gray-300"
+      className="bg-red-500 text-white p-2 rounded-lg disabled:bg-gray-300"
     >
       {text}
     </button>

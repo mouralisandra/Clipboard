@@ -18,10 +18,10 @@ const FileCard = async ({ id }: { id: string }) => {
     <div className="flex flex-col">
       <h1 className="text-4xl font-bold">{file.title}</h1>
 
-      <div className="p-4 bg-gray-100 rounded-lg my-2 whitespace-pre">
+      <div className="p-4 bg-red-100 rounded-lg my-2 whitespace-pre">
         <h2 className="text-lg font-bold">{file.title}</h2>
-        <p className="text-gray-500 text-sm">ID: {file.id}</p>
-        <p className="text-gray-500 text-sm">
+        <p className="text-red-500 text-sm">ID: {file.id}</p>
+        <p className="text-red-500 text-sm">
           {file.createdAt.toLocaleString()}
         </p>
         <h3 className="text-xl font-bold">Preview:</h3>

@@ -52,7 +52,7 @@ const FileUpload = () => {
     <div className="flex flex-col w-full bg-gray-100 p-4 rounded-lg h-full mt-5">
       <form onSubmit={handleSubmit} className="flex flex-col w-full">
         <div
-          className="cursor-pointer bg-gray-100 p-8 text-center rounded-lg border-dashed border-2 border-gray-300 hover:border-blue-500 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
+          className="cursor-pointer bg-gray-100 p-8 text-center rounded-lg border-dashed border-2 border-gray-300 hover:border-red-500 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
           onDragOver={handleDragOver}
           onDrop={handleDrop}
         >
