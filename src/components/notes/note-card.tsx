@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { deleteNote } from "@/server/notes/delete";
 import CommentInputForm from "../forms/add-comment"; // Import the CommentInputForm component
 import { Comment } from "@/types/comment"; // Import the Comment interface
+import { kv } from "@vercel/kv";
 
 const NoteCard = async ({ id }: { id: string }) => {
 
