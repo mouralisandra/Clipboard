@@ -29,23 +29,23 @@ const CommentInputForm: React.FC<Props> = ({ onAddComment }) => {
 
   return (
     <form onSubmit={handleSubmit} className="mt-4">
-      <div className="flex items-center bg-green-100 rounded-lg p-2">
+      <div className="flex items-center bg-red-100 rounded-lg p-2">
         <input
-          className="flex-grow bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+          className="flex-grow bg-transparent border-none text-red-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
           type="text"
           placeholder="Your name"
           value={owner}
           onChange={(e) => setOwner(e.target.value)} // Update the owner state
         />
         <input
-          className="flex-grow bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+          className="flex-grow bg-transparent border-none text-red-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
           type="text"
           placeholder="Add a comment..."
           value={content}
           onChange={(e) => setContent(e.target.value)}
         />
         <button
-          className="bg-green-200 hover:bg-green-300 text-gray-700 py-1 px-3 rounded-lg"
+          className="bg-red-200 hover:bg-red-300 text-red-700 py-1 px-3 rounded-lg"
           type="submit"
         >
           Add
