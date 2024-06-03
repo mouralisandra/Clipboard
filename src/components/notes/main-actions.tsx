@@ -23,7 +23,7 @@ export const MainActions = () => {
   return (
     <div className="my-4">
       <div className="flex flex-wrap">
-        <Link href="/create" className="rounded-xl bg-yellow-300 p-2 px-3 m-1">
+        <Link href="/create" className="rounded-xl bg-red-500 p-2 px-3 m-1">
           + Create a new note
         </Link>
         <Link href="/upload" className="rounded-xl bg-pink-300 p-2 px-3 m-1">
@@ -40,7 +40,7 @@ export const MainActions = () => {
           onKeyPress={handleKeyPress}
         />
         <button
-          className="rounded-xl bg-yellow-300 p-2 px-3"
+          className="rounded-xl bg-red-300 p-2 px-3"
           onClick={handleGoClick}
         >
           Go

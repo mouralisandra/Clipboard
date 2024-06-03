@@ -5,4 +5,5 @@ export interface File {
     downloadUrl: string;
     createdAt: Date;
     type?: string;
+    comments?: Comment[];
 }
